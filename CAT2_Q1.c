@@ -21,6 +21,7 @@ strcpy(employee.email,"john.doe@company.com");
 printf("Name:%s\n",employee.name);
 printf("ID:%d\n",employee.id);
 printf("Department:%s\n",employee.department);
+printf("salary:%.2f",employee.salary);
 printf("email:%s\n",employee.email);
 return 0;
 }
